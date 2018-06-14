@@ -1,7 +1,7 @@
-import { AdminAuthGuard } from './admin-auth-guard.service';
-import { UserService } from './user.service';
-import { AuthGuard } from './auth-guard.service';
-import { AuthService } from './auth.service';
+import { AdminAuthGuard } from '../auth-gaurds/admin-auth-guard.service';
+import { UserService } from '../services/user.service';
+import { AuthGuard } from '../auth-gaurds/auth-guard.service'
+import { AuthService } from '../services/auth.service';
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
